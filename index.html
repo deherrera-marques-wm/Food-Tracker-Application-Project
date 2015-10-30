@@ -13,19 +13,28 @@
     Description:
     <input type="text" id="description">
     Purchase Date:
-    <input type="text" max maxlength="8" id="purchase">
+    <input type="date" id="purchase">
     Expiration Date:
-    <input type="text" max maxlength="8" id="expiration">
+    <input type="date" id="expiration">
 </form>
-<div id="buttonSpace"><button onclick="enter()">Submit</button></div>
+<div><button onclick="enter()" style="background-color: deepskyblue">Submit Information</button></div>
 
 <div id="title1">
-    <h2><strong>Food</strong></h2>
-    <h2><strong>Description</strong></h2>
-    <h2><strong>Purchase Date</strong></h2>
-    <h2><strong>Expiration Date</strong></h2>
-    <br> <br>
-    </div>
+    <table border="1" id="myTable">
+    <thead>
+    <tr>
+    <th><strong>Food</strong></th>
+    <th><strong>Description</strong></th>
+    <th><strong>Purchase Date (YY/MM/DD)</strong></th>
+    <th><strong>Expiration Date (YY/MM/DD)</strong></th>
+    </tr>
+    </thead>
 
+    <tbody>
+
+    </tbody>
+
+    </table>
+    </div>
 </body>
 </html>
